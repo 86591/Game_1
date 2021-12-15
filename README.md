@@ -1,4 +1,7 @@
-# Game_1
+# 2021 Network Term_Project-Team: D >> Tik-Tak-Toe
+# 유튜브 링크: 
+
+
 2학년 2학기 팀 프로젝트-게임 제작하기(Part: 서버)
 
 여러가지 유의사항들
