@@ -1,6 +1,7 @@
 # 2021 Network Term_Project-Team: D >> Tik-Tak-Toe
 # 유튜브 링크: 
-
+# 코드는 master branch에 있습니다.
+# 서버: 신인섭, 클라이언트: 최현지, 김기홍 // 서버 완성, 클라이언트 미완성
 
 2학년 2학기 팀 프로젝트-게임 제작하기(Part: 서버)
 
