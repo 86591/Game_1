@@ -35,9 +35,12 @@ public class Main extends Thread {
 			
 			while ((count = fromClient.read(buf)) != -1) {
 				String temp = new String(buf);
-				String temp_new = temp.substring(0, temp.indexOf('\n') - 1);
+				String temp_new = temp.substring(0, temp.indexOf('\n'));
 				String[] find_protocol = temp_new.split(" ", 2);
 				int protocol = Integer.parseInt(find_protocol[0]);
+				
+				System.out.println(temp);
+				System.out.println(temp.indexOf('\n'));
 				
 				if (protocol == 100) {// 완료
 					System.out.println("100 from client");
